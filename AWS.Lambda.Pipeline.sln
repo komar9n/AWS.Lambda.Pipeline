@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.Lambda.Pipeline.APIGatewayProxy", "src\AWS.Lambda.Pipeline.APIGatewayProxyRequest\AWS.Lambda.Pipeline.APIGatewayProxy.csproj", "{B751DAA3-1984-405E-8C67-7FFA48AF8814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EEF42EE2-EF80-41B8-A334-343F366C7343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.Lambda.Pipeline.Generic", "src\AWS.Lambda.Pipeline.Generic\AWS.Lambda.Pipeline.Generic.csproj", "{07D97213-7646-4151-BA01-51028CC85754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.Lambda.Pipeline", "src\AWS.Lambda.Pipeline\AWS.Lambda.Pipeline.csproj", "{EEDA0736-08A7-4AF9-A9E9-F76703706208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2FE4DD73-0036-4E03-BD67-22226F128027}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestFunctions", "tests\TestFunctions\TestFunctions.csproj", "{431C017D-3003-46EE-A302-8626F2A561D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestFunctions.Tests", "tests\TestFunctions.Tests\TestFunctions.Tests.csproj", "{62DA6B3B-5239-49AD-8AB2-0956C30E4E94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B751DAA3-1984-405E-8C67-7FFA48AF8814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B751DAA3-1984-405E-8C67-7FFA48AF8814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B751DAA3-1984-405E-8C67-7FFA48AF8814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B751DAA3-1984-405E-8C67-7FFA48AF8814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D97213-7646-4151-BA01-51028CC85754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D97213-7646-4151-BA01-51028CC85754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D97213-7646-4151-BA01-51028CC85754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D97213-7646-4151-BA01-51028CC85754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEDA0736-08A7-4AF9-A9E9-F76703706208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDA0736-08A7-4AF9-A9E9-F76703706208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDA0736-08A7-4AF9-A9E9-F76703706208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDA0736-08A7-4AF9-A9E9-F76703706208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431C017D-3003-46EE-A302-8626F2A561D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431C017D-3003-46EE-A302-8626F2A561D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431C017D-3003-46EE-A302-8626F2A561D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431C017D-3003-46EE-A302-8626F2A561D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DA6B3B-5239-49AD-8AB2-0956C30E4E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DA6B3B-5239-49AD-8AB2-0956C30E4E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DA6B3B-5239-49AD-8AB2-0956C30E4E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DA6B3B-5239-49AD-8AB2-0956C30E4E94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B751DAA3-1984-405E-8C67-7FFA48AF8814} = {EEF42EE2-EF80-41B8-A334-343F366C7343}
+		{07D97213-7646-4151-BA01-51028CC85754} = {EEF42EE2-EF80-41B8-A334-343F366C7343}
+		{EEDA0736-08A7-4AF9-A9E9-F76703706208} = {EEF42EE2-EF80-41B8-A334-343F366C7343}
+		{431C017D-3003-46EE-A302-8626F2A561D8} = {2FE4DD73-0036-4E03-BD67-22226F128027}
+		{62DA6B3B-5239-49AD-8AB2-0956C30E4E94} = {2FE4DD73-0036-4E03-BD67-22226F128027}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E6016BA-7BB2-4D53-854E-8A09C60351BA}
+	EndGlobalSection
+EndGlobal
